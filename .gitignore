@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files (keep only essential logs)
+*.log
+wait_and_check.bat
+wait_check_v3.bat
+tasks.txt
+
+# Environment check files (not needed for reproduction)
+env_*.txt
+find_*.txt
+python_path.txt
+conda_envs.txt
+check_*.txt
+record.md
+forward_run_log.txt
+forward_train_log.txt
+forward_v2_log.txt
+inverse_run_log.txt
+inverse_v2_log.txt
+inverse_v2_origfwd_log.txt
+inverse_v3_log.txt
